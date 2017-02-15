@@ -15,11 +15,6 @@ function http(userConf) {
     }, userConf);
 
     return new Promise((res, rej) => {
-        // beforeSend
-        _conf.beforeSend = function () {
-            triggerFn.call(this, userConf.beforeSend, arguments);
-        };
-
         // success
         _conf.success = function (resp) {
             const args = Array.prototype.slice.call(arguments);
