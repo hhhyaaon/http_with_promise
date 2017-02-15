@@ -1,0 +1,25 @@
+{
+  "name": "http_with_promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhyaaon/http_with_promise.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "hhhyaaon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hhhyaaon/http_with_promise/issues"
+  },
+  "homepage": "https://github.com/hhhyaaon/http_with_promise#readme",
+  "dependencies": {
+    "zepto": "^1.2.0"
+  }
+}
